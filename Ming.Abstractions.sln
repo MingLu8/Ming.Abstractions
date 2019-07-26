@@ -1,16 +1,14 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My.Abstractions", "src\My.Abstractions\My.Abstractions.csproj", "{C1574549-3279-433F-B3DE-0913849A3BFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ming.Abstractions", "src\Ming.Abstractions\Ming.Abstractions.csproj", "{C1574549-3279-433F-B3DE-0913849A3BFC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5710FF89-195D-4E81-B105-9BFBB98CC9D6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{765CDB03-09AB-4131-A5BF-7A41D9F1DF32}"
 	ProjectSection(SolutionItems) = preProject
-		azure-pipelines-develop.yml = azure-pipelines-develop.yml
-		azure-pipelines-release.yml = azure-pipelines-release.yml
-		nuget-release.config = nuget-release.config
+		azure-pipelines.yml = azure-pipelines.yml
 		nuget.config = nuget.config
 		README.md = README.md
 	EndProjectSection

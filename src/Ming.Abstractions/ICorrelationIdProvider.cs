@@ -1,4 +1,4 @@
-namespace My.CorrelationIdProvider
+namespace Ming.CorrelationIdProvider
 {
     public interface ICorrelationIdProvider
     {
