@@ -34,7 +34,7 @@ steps:
   displayName: 'dotnet build'
   inputs:
     command: build
-    arguments: '--no-restore --configuration $(BuildConfiguration)'
+    arguments: '--no-restore --configuration $(BuildConfiguration) --version-suffix "-$(Build.BuildId)"'
     
 - task: DotNetCoreCLI@2
   displayName: 'dotnet pack'
@@ -42,6 +42,7 @@ steps:
     command: pack
     arguments: '--no-restore --no-build  --configuration $(BuildConfiguration)'
     packagesToPack: '**/*.csproj;!**/*.Tests.csproj'
+    buildProperties: 'VersionSuffix=-$(Build.BuildId)'
 
 - task: DotNetCoreCLI@2
   displayName: 'dotnet push'
