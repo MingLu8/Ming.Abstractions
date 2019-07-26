@@ -13,7 +13,7 @@ pool:
 variables:
   buildConfiguration: 'Debug'
   nugetConfig: 'nuget.config' 
-  vstsFeedName: 'ming-nuget'  
+  vstsFeedName: '5a4c6a5a-e801-4d6b-bce9-f9b5a12971e1/ab6fa45b-8fab-4654-a155-221b9d8b90f5'  
  
 steps:
 #- task: NuGetToolInstaller@0
